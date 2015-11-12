@@ -1,0 +1,30 @@
+﻿Build started 2014/3/17 11:58:30.
+     1>Project "E:\svn\SE_SIS2013\06.Development\点读笔\WJ_DJB_讯飞_点读笔\工作目录\软件\资源\打包工具\Index\Index.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Index.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt pen_index.cpp
+         pen_index.cpp
+     1>pen_index.cpp(180): warning C4018: '<' : signed/unsigned mismatch
+     1>pen_index.cpp(222): warning C4018: '<' : signed/unsigned mismatch
+     1>pen_index.cpp(255): warning C4018: '<' : signed/unsigned mismatch
+     1>pen_index.cpp(259): warning C4018: '>=' : signed/unsigned mismatch
+     1>pen_index.cpp(268): warning C4018: '<' : signed/unsigned mismatch
+     1>pen_index.cpp(407): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>pen_index.cpp(427): warning C4309: 'initializing' : truncation of constant value
+     1>pen_index.cpp(438): warning C4309: '=' : truncation of constant value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\svn\SE_SIS2013\06.Development\点读笔\WJ_DJB_讯飞_点读笔\工作目录\软件\资源\打包工具\Debug\Index.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Index.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\svn\SE_SIS2013\06.Development\点读笔\WJ_DJB_讯飞_点读笔\工作目录\软件\资源\打包工具\Debug\Index.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\svn\SE_SIS2013\06.Development\点读笔\WJ_DJB_讯飞_点读笔\工作目录\软件\资源\打包工具\Debug\Index.lib" /MACHINE:X86 Debug\123.obj
+         Debug\pen_index.obj
+         LINK : E:\svn\SE_SIS2013\06.Development\点读笔\WJ_DJB_讯飞_点读笔\工作目录\软件\资源\打包工具\Debug\Index.exe not found or not built by the last incremental link; performing full link
+         Index.vcxproj -> E:\svn\SE_SIS2013\06.Development\点读笔\WJ_DJB_讯飞_点读笔\工作目录\软件\资源\打包工具\Debug\Index.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\svn\SE_SIS2013\06.Development\点读笔\WJ_DJB_讯飞_点读笔\工作目录\软件\资源\打包工具\Debug\Index.exe;#1" /manifest Debug\Index.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Index.unsuccessfulbuild".
+         Touching "Debug\Index.lastbuildstate".
+     1>Done Building Project "E:\svn\SE_SIS2013\06.Development\点读笔\WJ_DJB_讯飞_点读笔\工作目录\软件\资源\打包工具\Index\Index.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.20

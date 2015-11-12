@@ -1,0 +1,38 @@
+ROM_LOAD 0x0000
+{
+    ROM_EXEC 0 0x24400
+    {
+		boot_ISD9xx.o(vectors, +First)
+        * (+RO); All other code
+    }
+	RAM_PLAY_OVERLAY 0x20000000 OVERLAY 0x2400
+	{
+		*(playvars)
+	}
+	RAM_ESR_OVERLAY 0x20000000 OVERLAY 0x2300
+	{
+		*(esrvars)
+	}
+	RAM_REC_OVERLAY 0x20000000 OVERLAY 0x2300
+	{
+		*(recvars)
+	}
+	RAM_SWH_OVERLAY 0x20002300 OVERLAY 0x100
+	{
+		*(swhvars)
+	}
+	RAM_MAG_OVERLAY 0x20000000 OVERLAY 0x2400
+	{
+		*(magicvars)
+	}
+	RAM_CAM_OVERLAY 0x20001D00 OVERLAY 0x700
+	{
+		*(camvars)
+	}
+  	IRAM 0x20002400 0x600
+    {
+        *.o (+RW, +ZI)
+    }
+	
+    ARM_LIB_STACKHEAP 0x20003000 EMPTY -0x600 {}
+}
